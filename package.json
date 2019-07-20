@@ -1,0 +1,42 @@
+{
+  "name": "turing-api",
+  "version": "1.1.0",
+  "description": "A Node.js starter for the Serverless Framework with async/await and unit test support",
+  "main": "handler.js",
+  "scripts": {
+    "test": "jest",
+    "query-departments": "sls invoke local --function graphql --path mock/requests/query_departments.json"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnomalyInnovations/serverless-nodejs-starter.git"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "dataloader-sequelize": "^2.0.1",
+    "dotenv-safe": "^6.1.0",
+    "graphql": "^14.4.2",
+    "graphql-relay": "^0.6.0",
+    "graphql-sequelize": "^9.3.6",
+    "lodash": "^4.17.14",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.10.0",
+    "source-map-support": "^0.5.12"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-source-map-support": "^2.0.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "copy-webpack-plugin": "^5.0.3",
+    "jest": "^24.8.0",
+    "serverless-offline": "^5.7.3",
+    "serverless-webpack": "^5.3.1",
+    "webpack": "^4.35.3",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
