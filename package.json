@@ -20,7 +20,7 @@
     "graphql": "^14.4.2",
     "graphql-relay": "^0.6.0",
     "graphql-sequelize": "^9.3.6",
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.19",
     "mysql2": "^1.6.5",
     "sequelize": "^5.10.0",
     "source-map-support": "^0.5.12"
